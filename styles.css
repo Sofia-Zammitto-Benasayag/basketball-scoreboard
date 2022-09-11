@@ -16,6 +16,11 @@ h1 {
   margin-bottom: 10px;
 }
 
+.board {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .score {
   background-color: black;
   width: 155px;
@@ -31,4 +36,25 @@ h1 {
   text-align: center;
   font-family: myFirstFont;
   padding-top: 20px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+button {
+  font-family: myFirstFont;
+  font-size: 18px;
+  color: #9aabd8;
+  background-color: #1b244a;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+}
+
+.plus1,
+.plus2 {
+  margin-right: 18px;
 }
