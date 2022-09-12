@@ -17,14 +17,14 @@
 
           <div class="score">
             <div class="num">
-              <p>0</p>
+              <p id="home-score">0</p>
             </div>
           </div>
 
           <div class="buttons">
-            <button class="plus1">+1</button>
-            <button class="plus2">+2</button>
-            <button>+3</button>
+            <button class="plus1" onclick="addHomeOne()">+1</button>
+            <button class="plus2" onclick="addHomeTwo()">+2</button>
+            <button onclick="addHomeThree()">+3</button>
           </div>
         </div>
       </div>
@@ -37,17 +37,26 @@
 
           <div class="score">
             <div class="num">
-              <p>0</p>
+              <p id="guest-score">0</p>
             </div>
           </div>
 
           <div class="buttons">
-            <button class="plus1">+1</button>
-            <button class="plus2">+2</button>
-            <button>+3</button>
+            <button class="plus1" id="add-one" onclick="addGuestOne()">
+              +1
+            </button>
+            <button class="plus2" id="add-two" onclick="addGuestTwo()">
+              +2
+            </button>
+            <button onclick="addGuestThree()">+3</button>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="reset-container">
+      <button class="reset-btn" onclick="resetScore()">New Game</button>
+    </div>
   </body>
+  <script src="index.js"></script>
 </html>

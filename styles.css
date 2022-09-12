@@ -58,3 +58,13 @@ button {
 .plus2 {
   margin-right: 18px;
 }
+
+.reset-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.reset-btn {
+  width: 200px;
+}
